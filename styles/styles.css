@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(14, 168, 229);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto; 
+    border-radius: 20px;  
+}
+
+.nav-links a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.2s ease-in, text-decoration 0.3s;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgb(218, 242, 242) ;
+}
+
+
+.heading {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(49, 145, 240);
+    padding: 20px;
+    background-color:rgb(218, 242, 242);
+    width: 100%;
+    margin-top: 5px;
+   
+}
+
+.content-row {
+    width: 100%;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(201, 241, 241);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    font-family: sans-serif;
+    color:darkblue;
+    font-size: large;
+    font-style: italic; 
+}
+
+ footer {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(201, 241, 241);
+}
+
+.cta {
+   height: auto;
+   color: darkblue;
+   margin: 0px;
+   font-size: large;
+   font-style: italic;
+   
+  
+
+}
+
+.footer {
+    display: flex;
+    height: auto;
+    color: darkblue;
+    font-size: large;
+    font-style: italic;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+
+}
+
