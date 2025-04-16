@@ -30,13 +30,13 @@ nav {
 .nav-links .active {
     color: rgb(233, 226, 18);
     text-decoration: underline;
-    transform: scale(1.5);
+    transform: scale(1.2);
     
 }
 
 .nav-links a:hover {
     text-decoration: underline;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 main {
@@ -46,10 +46,15 @@ main {
     background-color:rgb(218, 242, 242);
 }
 
+.container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+}
 
 .heading {
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-weight: bold;
     color:rgb(49, 145, 240);
@@ -57,6 +62,17 @@ main {
     background-color:rgb(218, 242, 242);
     width: 100%;
     margin-top: 5px;
+
+}
+
+.sub-heading {
+    font-size:30px;
+    font-family: cursive;
+    text-align: center;
+    width: 100%;
+    color: darkblue;
+    background-color: rgb(218, 242, 242);
+    font-style: italic;
    
 }
 
@@ -67,6 +83,7 @@ main {
 .main-image {
     width: 100%;
     height: auto;
+    padding-left: 0px;
    
 }
 
@@ -86,26 +103,106 @@ main {
  footer {
     display: flex;
     flex-direction: row;
-    background-color:rgb(201, 241, 241);
+    background-color:rgb(148, 221, 234);
+    justify-content: center;
+   
 }
 
 .cta {
-   height: auto;
+   height: fit-content;
    color: darkblue;
-   margin: 0px;
+   margin: 10px;
    font-size: large;
    font-style: italic;
+   
+
    
   }
 
 .footer {
     display: flex;
-    height: auto;
+    height: fit-content;
     color: darkblue;
     font-size: large;
     font-style: italic;
+    margin: 10px;
     
 }
 
+address{
 
+}
 
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 142);
+    font-size: medium;
+    max-width: 100%;
+}
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 142);
+    font-size: medium;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 142);
+    font-size: medium;
+   
+   
+}
+
+.at-swim-beyond-fun {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    color:rgb(9, 9, 142) ;
+    text-align: justify;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-top: 5px;  
+    
+}
+ 
+.step-by-step{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 142);
+    font-size: medium;
+    align-items: center;
+   
+}
+
+.iframe{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    
+}
