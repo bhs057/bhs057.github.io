@@ -156,6 +156,10 @@ main {
     margin-left: 50px;
 }
 
+.overview p {
+    width: 100%;
+}
+
 .benefits {
     display: flex;
     flex-direction: column;
